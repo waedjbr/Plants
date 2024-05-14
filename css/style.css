@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(1, 150, 1, 0.72);
+    padding:10px;
+    text-transform: capitalize;
+    align-items: center;
+    position: sticky;
+    text-align: center;
+    
+}
+header .toppage{
+    display:flex;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: 1.3em;
+    color:#333;
+    font-weight: bolder;
+    text-decoration: none;
+}
+header .icons{
+    margin-right: 20px;
+}
+header .icons a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color:black;
+    padding-left: 20px;
+}
+header .icons a:hover{
+    color: white;
+}
+header .navbar{
+    display: flex;
+    justify-content: center;
+}
+header .navbar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color:#333;
+    padding: 0 0.5em;
+}
+header .navbar a:hover{
+    color:white ;
+    letter-spacing: 2px;
+}
+
+
+footer{
+    background-color: rgba(1, 150, 1, 0.72);
+    padding-top: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    
+}
+footer ul li{
+    width:auto;  
+    padding:7px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+footer a:hover{
+    color:white;
+}
+
+
+
+
